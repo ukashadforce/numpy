@@ -18,7 +18,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-
+   # documented at https://circleci.com/developer/images/image/cimg/python
       - run:
           name: check skip
           command: |
